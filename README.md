@@ -63,7 +63,7 @@ OpenCV  required packages and other libraries mention in .sh (shell) script. it 
 ```
 cd rpi-bullseye-opencv4.5.5/
 ```
-Run shell script
+Run shell script(Installing OpenCV 4.6.0 and the dependencies on your Raspberry Pi 64-bit OS) It will take minimal 2.0 hour !
 ```
 bash install.sh 
 ```
@@ -74,10 +74,11 @@ Install TensorFlow Lite Runtime.
 ```
 sudo apt-get install python3-tflite-runtime
 ```
-Install Opencv.
+Install Opencv-python.
 ```
 pip3 install opencv-python
-``` 
+```
+Install shell script TFlite and Packages
 ```
 cd tensorflow-lite-bullseye/
 ```
@@ -88,12 +89,10 @@ bash tensorflow-lite.sh
 ```
 python3 -m pip install tflite-runtime
 ```
-Install Tensorflow Lite 2.5.0
+Install Tensorflow Lite 2.5.0(tflite_runtime-2.5.0.post1-cp39-cp39-linux_armv7l.whl)
 ```
 pip3 install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_armv7l.whl
 ```
-
-
 
 ### Step 7. Download Google's sample TFLite model
 coco_ssd_mobilenet_v1_1.0_quant_2018_06_29 object detection model run on TensorFlow Lite
