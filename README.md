@@ -1,4 +1,4 @@
-# Object-Detection-with-Voice-Feedback-using-Raspberry-Pi-and-Tensorflow-Lite
+# Object-Detection-with-Voice-Feedback-using-Raspberry-Pi-4-and-Bullseye-OS
 
 ## Introduction
 In this Project, I teach you how to set up the TensorFlow Lite and Voice Feedback on the Raspberry Pi 4 using latest Bulleye OS (Debian version: 11) and use it to run object detection models with voice feedback. In this work, I will use the Raspberry Pi 3 and 4 running either Bulleye OS or latest Debian 64 bit version supported.(Raspbian OS Repo Link: https://www.raspberrypi.com/software/operating-systems/).
@@ -63,33 +63,35 @@ OpenCV  required packages and other libraries mention in .sh (shell) script. it 
 ```
 cd rpi-bullseye-opencv4.5.5/
 ```
+Run shell script
 ```
 bash install.sh 
 ```
 ```
 cd ..
 ```
-
+Install TensorFlow Lite Runtime.
 ```
 sudo apt-get install python3-tflite-runtime
 ```
+Install Opencv.
 ```
 pip3 install opencv-python
 ``` 
 ```
 cd tensorflow-lite-bullseye/
 ```
+Install Tensorflow-lite.sh
 ```
 bash tensorflow-lite.sh 
 ```
 ```
 python3 -m pip install tflite-runtime
 ```
-
+Install Tensorflow Lite 2.5.0
 ```
 pip3 install https://github.com/google-coral/pycoral/releases/download/v2.0.0/tflite_runtime-2.5.0.post1-cp39-cp39-linux_armv7l.whl
 ```
-
 
 
 
