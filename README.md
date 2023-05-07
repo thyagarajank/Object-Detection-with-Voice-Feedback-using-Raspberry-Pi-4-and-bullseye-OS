@@ -1,4 +1,4 @@
-# Object-Detection-with-Voice-Feedback-using-Raspberry-Pi-4-and-Bullseye-OS
+# Object-Detection-with-Voice-Feedback-using-Raspberry-Pi-4-and-Bullseye-OS.
 
 ## Introduction
 In this Project, I teach you how to set up the TensorFlow Lite and Voice Feedback on the Raspberry Pi 4 using latest Bulleye OS (Debian version: 11) and use it to run object detection models with voice feedback. In this work, I will use the Raspberry Pi 3 and 4 running either Bulleye OS or latest Debian 64 bit version supported.(Raspbian OS Repo Link: https://www.raspberrypi.com/software/operating-systems/).
